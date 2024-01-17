@@ -1,8 +1,12 @@
 import React from 'react'
 import './Card.scss'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Card = (props) => {
     const { card } = props
+    // console.log('card', card)
+
+
     return (
         <>
             <div className='card-item'>
@@ -14,8 +18,12 @@ const Card = (props) => {
                     />
                 }
                 {card.title}
+                <div className='trash-icon'>
+                    <FontAwesomeIcon
+                        icon="fa-solid fa-trash"
+                    />
+                </div>
             </div>
-
 
         </>
     )

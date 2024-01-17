@@ -4,8 +4,8 @@ import React from 'react'
 
 const AppBar = () => {
     return (
-        <nav className='navbar-app'>App bar</nav>
+        <nav className='navbar-app'>KanBan</nav>
     )
 }
 
-export default AppBar
+export default AppBar;

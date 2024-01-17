@@ -6,8 +6,8 @@ import BoardContent from './components/BoardContent/BoardContent';
 function App() {
   return (
     <div className="trello-master">
-      <AppBar />
-      <BoardBar />
+      {/* <AppBar />
+      <BoardBar /> */}
       <BoardContent />
     </div>
   );
